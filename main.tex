@@ -1,0 +1,12 @@
+\documentclass{article}
+\begin{document}
+
+\section{Section 2. Banach Spaces}
+\subsection{Section 2. Finite Dimensional Banach Spaces}
+
+\textbf{Problem 1:} Let $X$ be a finite dimensional Banach space. Prove that every linear functional on $X$ is continuous.  
+
+\textbf{Solution:} Let $X$ be a finite dimensional Banach space. Let $f$ be a linear functional on $X$. We want to show that $f$ is continuous. Let $x_0 \in X$. Since $X$ is finite dimensional, there exists a basis $\{e_1, e_2, \ldots, e_n\}$ for $X$. Let $x = \sum_{i=1}^n a_i e_i \in X$. Then $f(x) = f(\sum_{i=1}^n a_i e_i) = \sum_{i=1}^n a_i f(e_i)$. Let $M = \max_{1 \leq i \leq n} \|f(e_i)\|$. Then $|f(x)| = |\sum_{i=1}^n a_i f(e_i)| \leq \sum_{i=1}^n |a_i| |f(e_i)| \leq M \sum_{i=1}^n |a_i| = M \|x\|$. Thus $f$ is continuous at $x_0$. Since $x_0$ was arbitrary, $f$ is continuous on $X$.
+
+
+\end{document}
